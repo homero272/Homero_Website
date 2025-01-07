@@ -14,6 +14,11 @@ const router = createBrowserRouter([
     errorElement: <NotFound/>
   },
   {
+    path: '/Homero_Website',
+    element: <HomePage/>,
+    errorElement: <NotFound/>
+  },
+  {
     path: '/about',
     element: <AboutMe/>
   },
