@@ -14,6 +14,7 @@ const projects = [
       `,
       skills: ["JavaScript", "React.js", "JointJS", "Automata Theory"],
       githubLink: ["https://github.com/officialblake/Draw-DFA"],
+      onlineLink : "https://blakemarshall.com/Draw-DFA/",
       contributors: "Homero Arellano, Blake Marshall and Jacob Sellers",
     },
     {
@@ -48,6 +49,7 @@ const projects = [
         "WebSockets",
       ],
       githubLink: ["https://github.com/Diegoriv-era/pokerAPI", "https://github.com/Diegoriv-era/pokerWebSocket", "https://github.com/homero272/pokerUI"],
+      onlineLink : "",
       contributors: "Diego Rivera",
     },
   ];

@@ -63,6 +63,17 @@ const Projects = () => {
                                     </Typography>
                                 )}
 
+                                {project.onlineLink != "" && (
+                                    <Typography variant="body2" sx={{ marginBottom: '0.5rem' }}>
+                                        Try out the project : 
+                                        <Link href={project.onlineLink} target="_blank" rel="noopener noreferrer" sx={{ color: '#3f51b5', textDecoration: 'none' }}>
+                                            {project.onlineLink}
+                                        </Link>
+                                    </Typography>
+                                )
+
+                                }
+
                                 <Typography variant="body2">
                                     Contributors: {project.contributors}
                                 </Typography>
