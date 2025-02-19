@@ -7,7 +7,7 @@ const NavBar = () => {
             position: "sticky",
             top: 0,
             border: 1,
-            background: 'linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%)', // Gradient background
+            background: '#808080', // Gradient background
             height: '10vh',
             display: 'flex',
             flexDirection: 'row',
